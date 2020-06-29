@@ -13,5 +13,5 @@ def my_func(prev_el, el):
 # prev_el - предыдущий элемент
 # el - текущий элемент
 
-print(f'Список четных значений: {[el for el in range(1, 11) if el % 2 == 0]}')
-print(f'Результат вычисления произведения элементов списка: {reduce(my_func, [el for el in range(1, 11) if el % 2 == 0])}')
+print(f'Список четных значений: {[el for el in range(100, 1001) if el % 2 == 0]}')
+print(f'Результат вычисления произведения элементов списка: {reduce(my_func, [el for el in range(100, 1001) if el % 2 == 0])}')

@@ -8,9 +8,10 @@
 
 from sys import argv
 
-name, production_in_hours, rate_per_hour, bonus = argv
+script, name, production_in_hours, rate_per_hour, bonus = argv
 
 try:
+    print("The script is called: ", script)
     print("Имя сотрудника: ", name)
     print("Выработка сотрудника в часах:", production_in_hours)
     print("Ставка сотрудника в час(руб.):", rate_per_hour)

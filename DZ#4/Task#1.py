@@ -13,7 +13,7 @@ def salary():
         rate_per_hour = int(input('Введите cтавку сотрудника в час(руб.):'))
         bonus = int(input('Введите премию сотрудника(руб.):'))
         result = production_in_hours * rate_per_hour + bonus
-        print(f'Заработная плата сотрудника - {name} составляет: {result}')
+        print(f'Заработная плата сотрудника - {name} составляет: {result:.2f} рублей')
     except ValueError:
         return print('Not a number')
 salary()
